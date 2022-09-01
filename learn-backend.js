@@ -19,7 +19,7 @@ app.post("/process_post", urlencodedParser, function (req, res) {
 var server = app.listen(8000, function () {
   var host = server.address().address;
   var port = server.address().port;
-  console.log("Example app listening at https://%s:%s", host, port);
+  console.log("Listening at https://%s:%s", host, port);
 });
 
 // var express = require('express');
